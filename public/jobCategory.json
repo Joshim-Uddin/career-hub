@@ -1,21 +1,21 @@
 [
   {
-    "icon": "fa fa-briefcase",
+    "icon": "https://cdn-icons-png.flaticon.com/512/522/522510.png",
     "type": "Marketing",
     "jobs": 25
   },
   {
-    "icon": "fa fa-code",
+    "icon": "https://cdn-icons-png.flaticon.com/512/46/46105.png",
     "type": "Software Development",
     "jobs": 50
   },
   {
-    "icon": "fa fa-medkit",
+    "icon": "https://cdn-icons-png.flaticon.com/512/25/25296.png",
     "type": "Healthcare",
     "jobs": 40
   },
   {
-    "icon": "fa fa-wrench",
+    "icon": "https://cdn-icons-png.flaticon.com/512/31/31056.png",
     "type": "Engineering",
     "jobs": 30
   }
