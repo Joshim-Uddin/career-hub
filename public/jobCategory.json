@@ -1,0 +1,22 @@
+[
+  {
+    "icon": "fa fa-briefcase",
+    "type": "Marketing",
+    "jobs": 25
+  },
+  {
+    "icon": "fa fa-code",
+    "type": "Software Development",
+    "jobs": 50
+  },
+  {
+    "icon": "fa fa-medkit",
+    "type": "Healthcare",
+    "jobs": 40
+  },
+  {
+    "icon": "fa fa-wrench",
+    "type": "Engineering",
+    "jobs": 30
+  }
+]

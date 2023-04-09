@@ -1,0 +1,112 @@
+[
+    {
+      "id": 1,
+      "logo": "https://example.com/logo.png",
+      "title": "Full-Stack Web Developer",
+      "company": "Acme Inc.",
+      "remote": false,
+      "location": "New York, NY",
+      "employment": "Full-time",
+      "salary": "$80,000 - $100,000",
+      "description": "Acme Inc. is seeking a skilled full-stack web developer to help us build and maintain our web applications. You will be responsible for developing both the front-end and back-end of our web applications, as well as integrating with third-party APIs.",
+      "responsibility": "Develop and maintain web applications using modern front-end frameworks (e.g. React, Vue) and back-end frameworks (e.g. Ruby on Rails, Django), integrate with third-party APIs, collaborate with designers and other developers.",
+      "education": "Bachelor's degree in computer science or related field.",
+      "experience": "Minimum 3 years of experience in full-stack web development.",
+      "contact": {
+        "phone": "555-555-5555",
+        "email": "jobs@acmeinc.com"
+      }
+    },
+    {
+      "id": 2,
+      "logo": "https://example.com/logo.png",
+      "title": "Front-End Web Developer",
+      "company": "XYZ Corporation",
+      "remote": true,
+      "location": "Remote",
+      "employment": "Full-time",
+      "salary": "$70,000 - $90,000",
+      "description": "We're looking for a front-end web developer to help us build and maintain our web applications. You will be responsible for developing the front-end of our web applications using modern frameworks and technologies.",
+      "responsibility": "Develop and maintain the front-end of our web applications using modern front-end frameworks (e.g. React, Vue), collaborate with back-end developers and designers.",
+      "education": "Bachelor's degree in computer science or related field.",
+      "experience": "Minimum 2 years of experience in front-end web development.",
+      "contact": {
+        "phone": "555-555-5555",
+        "email": "jobs@xyzcorp.com"
+      }
+    },
+    {
+      "id": 3,
+      "logo": "https://example.com/logo.png",
+      "title": "Back-End Web Developer",
+      "company": "ABC Industries",
+      "remote": false,
+      "location": "Seattle, WA",
+      "employment": "Full-time",
+      "salary": "$90,000 - $110,000",
+      "description": "ABC Industries is seeking a skilled back-end web developer to help us build and maintain our web applications. You will be responsible for developing the back-end of our web applications using modern frameworks and technologies.",
+      "responsibility": "Develop and maintain the back-end of our web applications using modern back-end frameworks (e.g. Ruby on Rails, Django), collaborate with front-end developers and designers.",
+      "education": "Bachelor's degree in computer science or related field.",
+      "experience": "Minimum 3 years of experience in back-end web development.",
+      "contact": {
+        "phone": "555-555-5555",
+        "email": "jobs@abcindustries.com"
+      }
+    },
+    {
+      "id": 4,
+      "logo": "https://example.com/logo.png",
+      "title": "Web Application Developer",
+      "company": "123 Web Design",
+      "remote": false,
+      "location": "Los Angeles, CA",
+      "employment": "Part-time",
+      "salary": "$40 - $50 per hour",
+      "description": "123 Web Design is looking for a talented web application developer to join our team. In this role, you will be responsible for developing and maintaining web applications for our clients.",
+      "responsibility": "Develop and maintain web applications using modern front-end and back-end frameworks, collaborate with designers and other developers, ensure the performance and scalability of web applications.",
+      "education": "Bachelor's degree in computer science or related field preferred.",
+      "experience": "Minimum 2 years of experience in web development.",
+      "contact": {
+        "phone": "555-555-5555",
+        "email": "jobs@123webdesign.com"
+      }
+    },
+    {
+      "id": 5,
+      "logo": "https://example.com/logo.png",
+      "title": "WordPress Developer",
+      "company": "Green Tree Marketing",
+      "remote": true,
+      "location": "Remote",
+      "employment": "Full-time",
+      "salary": "$60,000 - $80,000",
+      "description": "Green Tree Marketing is seeking a skilled WordPress developer to help us build and maintain our clients' websites. You will be responsible for developing custom WordPress themes and plugins.",
+      "responsibility": "Develop custom WordPress themes and plugins, collaborate with designers and other developers, ensure the performance and scalability of WordPress websites.",
+      "education": "Bachelor's degree in computer science or related field preferred.",
+      "experience": "Minimum 3 years of experience in WordPress development.",
+      "contact": {
+        "phone": "555-555-5555",
+        "email": "jobs@greentreemarketing.com"
+      }
+    },
+    {
+      "id": 6,
+      "logo": "https://example.com/logo.png",
+      "title": "Senior Web Developer",
+      "company": "Blue Sky Technologies",
+      "remote": false,
+      "location": "San Francisco, CA",
+      "employment": "Full-time",
+      "salary": "$120,000 - $140,000",
+      "description": "Blue Sky Technologies is seeking a highly skilled senior web developer to lead the development of our web applications. You will be responsible for mentoring junior developers and ensuring the quality of our codebase.",
+      "responsibility": "Lead the development of our web applications, mentor junior developers, ensure the quality and scalability of our codebase, collaborate with designers and other developers.",
+      "education": "Bachelor's degree in computer science or related field preferred.",
+      "experience": "Minimum 5 years of experience in web development, with at least 2 years in a leadership role.",
+      "contact": {
+        "phone": "555-555-5555",
+        "email": "jobs@blueskytech.com"
+      }
+    }
+  ]
+  
+  
