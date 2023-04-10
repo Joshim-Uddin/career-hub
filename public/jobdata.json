@@ -1,7 +1,7 @@
 [
     {
       "id": 1,
-      "logo": "https://example.com/logo.png",
+      "logo": "https://i.ibb.co/cXLkDfN/Acme-Markets-lolo-svg.png",
       "title": "Full-Stack Web Developer",
       "company": "Acme Inc.",
       "remote": false,
@@ -19,7 +19,7 @@
     },
     {
       "id": 2,
-      "logo": "https://example.com/logo.png",
+      "logo": "https://i.ibb.co/029c4qL/microsoft-logo-png-2411.png",
       "title": "Front-End Web Developer",
       "company": "XYZ Corporation",
       "remote": true,
@@ -37,7 +37,7 @@
     },
     {
       "id": 3,
-      "logo": "https://example.com/logo.png",
+      "logo": "https://i.ibb.co/rcPQsbg/Alibaba-Emblem.png",
       "title": "Back-End Web Developer",
       "company": "ABC Industries",
       "remote": false,
@@ -55,7 +55,7 @@
     },
     {
       "id": 4,
-      "logo": "https://example.com/logo.png",
+      "logo": "https://i.ibb.co/CQ5YxM2/ebay-PNG22.png",
       "title": "Web Application Developer",
       "company": "123 Web Design",
       "remote": false,
@@ -73,7 +73,7 @@
     },
     {
       "id": 5,
-      "logo": "https://example.com/logo.png",
+      "logo": "https://i.ibb.co/029c4qL/microsoft-logo-png-2411.png",
       "title": "WordPress Developer",
       "company": "Green Tree Marketing",
       "remote": true,
@@ -91,7 +91,7 @@
     },
     {
       "id": 6,
-      "logo": "https://example.com/logo.png",
+      "logo": "https://i.ibb.co/W385rS8/Tesla-Emblem.png",
       "title": "Senior Web Developer",
       "company": "Blue Sky Technologies",
       "remote": false,
@@ -108,5 +108,6 @@
       }
     }
   ]
-  
+
+
   

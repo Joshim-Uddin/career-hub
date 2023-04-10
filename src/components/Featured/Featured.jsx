@@ -1,10 +1,29 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+import Jobitem from "../Jobitem/Jobitem";
 
 const Featured = () => {
+  const [jobs, setJobs] = useState([]);
+  useEffect(() => {
+    fetch("jobdata.json")
+      .then((res) => res.json())
+      .then((data) => setJobs([...data]));
+  }, []);
+  console.log(jobs);
   return (
-    <div>
-      <h3>This is Featured job component</h3>
-    </div>
+    <>
+      <h2 className="my-container text-5xl font-bold text-center mb-4">
+        Fetured Jobs
+      </h2>
+      <p className="text-center mb-5">
+        Explore thousands of job opportunities with all the information you
+        need. Its your future
+      </p>
+      <div className="grid md:grid-cols-2 gap-5 my-container">
+        {jobs.map((job) => (
+          <Jobitem key={job.id} job={job} />
+        ))}
+      </div>
+    </>
   );
 };
 
