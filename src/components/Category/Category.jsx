@@ -12,13 +12,13 @@ const Category = () => {
       </p>
       <div className="grid md:grid-cols-4 items-center gap-5 justify-center my-container my-12 px-10 mx-auto">
         {prods.map((prod) => (
-          <>
+          <div key={prod.id}>
             <div className="flex p-4 rounded flex-col items-center bg-gradient-to-r from-indigo-100 to-purple-100 h-40">
               <img src={prod.icon} alt="" className="w-12" />
               <p className="text-xl">{prod.type}</p>
               <small>{prod.jobs} Jobs Available</small>
             </div>
-          </>
+          </div>
         ))}
       </div>
     </div>

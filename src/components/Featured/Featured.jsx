@@ -18,7 +18,7 @@ const Featured = () => {
         Explore thousands of job opportunities with all the information you
         need. Its your future
       </p>
-      <div className="grid md:grid-cols-2 gap-5 my-container">
+      <div className="grid md:grid-cols-2 gap-5 my-container px-12">
         {jobs.map((job) => (
           <Jobitem key={job.id} job={job} />
         ))}

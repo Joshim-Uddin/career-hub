@@ -2,7 +2,7 @@ import React from "react";
 
 const Banner = () => {
   return (
-    <div className="md:flex items-center my-8">
+    <div className="md:flex items-center my-8 px-10">
       <div className="flex flex-col gap-5 md:items-start items-center">
         <h2 className="text-6xl font-black flex flex-col gap-5 text-center md:text-left">
           Next Step to Your
