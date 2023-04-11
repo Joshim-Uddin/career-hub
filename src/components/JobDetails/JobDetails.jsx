@@ -26,7 +26,7 @@ const JobDetails = () => {
   } = foundJob;
 
   return (
-    <div className="px-8">
+    <div className="px-8 h-screen">
       <h3 className="text-center text-4xl font-bold my-8">Job Details</h3>
       <div className="flex flex-col md:flex-row justify-between gap-12">
         <div className="pe-4 flex flex-col gap-5">
