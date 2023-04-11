@@ -1,10 +1,12 @@
 import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import React from "react";
+import React, { useContext } from "react";
+import { Link } from "react-router-dom";
 
 const SingleJobData = ({ job }) => {
   const { company, title, remote, employment, location, salary, logo, id } =
     job;
+  // const [jobId, setJobId] = useContext(MyContext);
   console.log(job);
   return (
     <div className="border rounded-lg p-5 bg-[#E8E8E8] flex justify-between items-center ">
@@ -36,7 +38,9 @@ const SingleJobData = ({ job }) => {
         </div>
       </div>
 
-      <button className="my-btn">View Details</button>
+      <Link to={`/jobdetails/${id}`}>
+        <button className="my-btn">View Details</button>
+      </Link>
     </div>
   );
 };
