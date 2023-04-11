@@ -9,8 +9,8 @@ import {
 const Footer = () => {
   return (
     <div className="bg-black text-white px-40 py-12 mt-12">
-      <div className="grid md:grid-cols-5 gap-4 py-12 border-b-2 border-gray-700 mb-4">
-        <div>
+      <div className="flex md:flex-row flex-col md:justify-between py-12 border-b-2 border-gray-700 mb-4">
+        <div className="md:w-72 mb-4">
           <h3 className="text-2xl font-bold mb-4">CareerMatch</h3>
           <p className="mb-4">
             There are many variations of passages of Lorem Ipsum , but the
@@ -31,37 +31,39 @@ const Footer = () => {
             />
           </div>
         </div>
-        <div className="flex flex-col gap-3">
-          <h5>Company</h5>
-          <ul className="flex flex-col gap-2 text-gray-300">
-            <li className="text-sm">About Us</li>
-            <li className="text-sm">Work</li>
-            <li className="text-sm">Latest News</li>
-            <li className="text-sm">Careers</li>
-          </ul>
-        </div>
-        <div className="flex flex-col gap-3">
-          <h5>Product</h5>
-          <ul className="flex flex-col gap-2 text-gray-300">
-            <li className="text-sm">Prototype</li>
-            <li className="text-sm">Plans & Pricing</li>
-            <li className="text-sm">Customers</li>
-            <li className="text-sm">Integrations</li>
-          </ul>
-        </div>
-        <div className="flex flex-col gap-3">
-          <h5>Support</h5>
-          <ul className="flex flex-col gap-2 text-gray-300">
-            <li className="text-sm">Help Desk</li>
-            <li className="text-sm">Sales</li>
-            <li className="text-sm">Become a Partner</li>
-            <li className="text-sm">Developers</li>
-          </ul>
-        </div>
-        <div className="flex flex-col gap-3">
-          <h5>Contact</h5>
-          <p className="text-sm">524 Broadway , NYC</p>
-          <p className="text-sm">+1 777 - 978 - 5570</p>
+        <div className="grid md:grid-cols-4 grid-cols-2 gap-4">
+          <div className="flex flex-col gap-3">
+            <h5>Company</h5>
+            <ul className="flex flex-col gap-2 text-gray-300">
+              <li className="text-sm">About Us</li>
+              <li className="text-sm">Work</li>
+              <li className="text-sm">Latest News</li>
+              <li className="text-sm">Careers</li>
+            </ul>
+          </div>
+          <div className="flex flex-col gap-3">
+            <h5>Product</h5>
+            <ul className="flex flex-col gap-2 text-gray-300">
+              <li className="text-sm">Prototype</li>
+              <li className="text-sm">Plans & Pricing</li>
+              <li className="text-sm">Customers</li>
+              <li className="text-sm">Integrations</li>
+            </ul>
+          </div>
+          <div className="flex flex-col gap-3">
+            <h5>Support</h5>
+            <ul className="flex flex-col gap-2 text-gray-300">
+              <li className="text-sm">Help Desk</li>
+              <li className="text-sm">Sales</li>
+              <li className="text-sm">Become a Partner</li>
+              <li className="text-sm">Developers</li>
+            </ul>
+          </div>
+          <div className="flex flex-col gap-3">
+            <h5>Contact</h5>
+            <p className="text-sm">524 Broadway , NYC</p>
+            <p className="text-sm">+1 777 - 978 - 5570</p>
+          </div>
         </div>
       </div>
       <div className="flex justify-between">

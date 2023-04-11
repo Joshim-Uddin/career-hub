@@ -1,9 +1,14 @@
-import React from "react";
+import React, { useContext } from "react";
 import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { Link, useLoaderData } from "react-router-dom";
+import JobDetails from "../JobDetails/JobDetails";
+import { MyContext } from "../../App";
 
 const Jobitem = ({ job }) => {
-  const { title, company, logo, location, salary, remote, employment } = job;
+  const { id, title, company, logo, location, salary, remote, employment } =
+    job;
+  const [jobId, setJobId] = useContext(MyContext);
   return (
     <div className="border rounded-lg p-5 bg-[#E8E8E8] flex flex-col gap-3 items-start ">
       <img src={logo} alt="" className="h-12" />
@@ -27,7 +32,12 @@ const Jobitem = ({ job }) => {
         </p>
         <p>{salary}</p>
       </div>
-      <button className="my-btn">View Details</button>
+
+      <Link to="/jobdetails">
+        <button className="my-btn" onClick={() => setJobId(id)}>
+          View Details
+        </button>
+      </Link>
     </div>
   );
 };
