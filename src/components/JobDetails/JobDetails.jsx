@@ -1,6 +1,6 @@
 import React, { useContext, useEffect, useState } from "react";
-import { useLoaderData } from "react-router-dom";
-import { MyContext } from "../../App";
+import { useLoaderData, useParams } from "react-router-dom";
+import { JobsContext, MyContext } from "../../App";
 import {
   PhoneIcon,
   EnvelopeIcon,
@@ -11,11 +11,9 @@ import {
 import { addToDb } from "../../utils/fakedb";
 
 const JobDetails = () => {
-  const [jobId, setJobId] = useContext(MyContext);
-
-  const jobs = useLoaderData();
-  const foundJob = jobs.find((job) => job.id === jobId);
-
+  const data = useContext(JobsContext);
+  const id = useParams();
+  const foundJob = data.find((job) => job.id == id.id);
   const {
     description,
     responsibility,
@@ -27,7 +25,6 @@ const JobDetails = () => {
     location,
   } = foundJob;
 
-  console.log(foundJob);
   return (
     <div className="px-8">
       <h3 className="text-center text-4xl font-bold my-8">Job Details</h3>
@@ -78,7 +75,7 @@ const JobDetails = () => {
               </p>
             </div>
           </div>
-          <button className="my-btn mt-4" onClick={() => addToDb(jobId)}>
+          <button className="my-btn mt-4" onClick={() => addToDb(id.id)}>
             Apply Now
           </button>
         </div>

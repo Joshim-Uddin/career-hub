@@ -1,3 +1,5 @@
+import { error } from "../App";
+
 // use local storage to manage cart data
 const addToDb = id => {
     let shoppingCart = getShoppingCart();
@@ -7,8 +9,7 @@ const addToDb = id => {
         shoppingCart[id] = 1;
     }
     else {
-        const newQuantity = quantity + 1;
-        shoppingCart[id] = newQuantity;
+       error()
     }
     localStorage.setItem('shopping-cart', JSON.stringify(shoppingCart));
 }

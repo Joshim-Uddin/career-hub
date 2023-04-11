@@ -14,17 +14,18 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
+    loader: () => fetch("/jobdata.json"),
     errorElement: <ErrorPage />,
     children: [
       {
         path: "/",
         element: <Home />,
-        loader: () => fetch("jobCategory.json"),
+        loader: () => fetch("/jobCategory.json"),
       },
       {
-        path: "/jobdetails",
+        path: "jobdetails/:id",
         element: <JobDetails />,
-        loader: () => fetch("jobdata.json"),
+        loader: (params) => fetch("/jobdata.json"),
       },
       {
         path: "statistics",
@@ -33,7 +34,7 @@ const router = createBrowserRouter([
       {
         path: "appliedjob",
         element: <Applied />,
-        loader: () => fetch("jobdata.json"),
+        loader: () => fetch("/jobdata.json"),
       },
       {
         path: "blog",

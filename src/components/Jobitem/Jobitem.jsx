@@ -33,7 +33,7 @@ const Jobitem = ({ job }) => {
         <p>{salary}</p>
       </div>
 
-      <Link to="/jobdetails">
+      <Link to={`/jobdetails/${id}`}>
         <button className="my-btn" onClick={() => setJobId(id)}>
           View Details
         </button>
