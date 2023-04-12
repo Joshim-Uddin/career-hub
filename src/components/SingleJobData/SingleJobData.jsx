@@ -7,7 +7,7 @@ const SingleJobData = ({ job }) => {
   const { company, title, remote, employment, location, salary, logo, id } =
     job;
   // const [jobId, setJobId] = useContext(MyContext);
-  console.log(job);
+
   return (
     <div className="border rounded-lg p-5 bg-[#E8E8E8] flex justify-between items-center ">
       <div className="flex items-center gap-5">

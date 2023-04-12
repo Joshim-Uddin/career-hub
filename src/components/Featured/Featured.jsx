@@ -23,6 +23,9 @@ const Featured = () => {
           <Jobitem key={job.id} job={job} />
         ))}
       </div>
+      <div className="flex flex-col justify-center items-center my-12">
+        <button className="my-btn">Show All</button>
+      </div>
     </>
   );
 };

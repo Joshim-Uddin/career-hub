@@ -24,8 +24,9 @@ const Statistics = () => {
           cx={200}
           cy={200}
           outerRadius={80}
-          fill="#8884d8"
+          fill="rgb(124 58 237)"
           label
+          // #8884d8
         />
 
         <Tooltip />
