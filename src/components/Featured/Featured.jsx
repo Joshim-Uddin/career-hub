@@ -3,12 +3,18 @@ import Jobitem from "../Jobitem/Jobitem";
 
 const Featured = () => {
   const [jobs, setJobs] = useState([]);
+  const [clicked, setClicked] = useState(false);
+
   useEffect(() => {
     fetch("jobdata.json")
       .then((res) => res.json())
       .then((data) => setJobs([...data]));
   }, []);
-  console.log(jobs);
+
+  const handleShowAll = () => {
+    setClicked(true);
+  };
+
   return (
     <>
       <h2 className="my-container text-5xl font-bold text-center mb-4">
@@ -19,12 +25,14 @@ const Featured = () => {
         need. Its your future
       </p>
       <div className="grid md:grid-cols-2 gap-5 my-container px-12">
-        {jobs.map((job) => (
-          <Jobitem key={job.id} job={job} />
-        ))}
+        {clicked
+          ? jobs.slice(0, 6).map((job) => <Jobitem key={job.id} job={job} />)
+          : jobs.slice(0, 4).map((job) => <Jobitem key={job.id} job={job} />)}
       </div>
       <div className="flex flex-col justify-center items-center my-12">
-        <button className="my-btn">Show All</button>
+        <button className="my-btn" onClick={handleShowAll}>
+          Show All
+        </button>
       </div>
     </>
   );
